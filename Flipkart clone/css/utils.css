@@ -1,0 +1,18 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categories_box{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 122px;
+    width:100%
+}
+
+.pointer{
+    cursor: pointer;
+}

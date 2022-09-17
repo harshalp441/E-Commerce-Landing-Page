@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top:0px;
+}
+
+body{
+    background-color: #f1f3f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display:flex;
+    background-color: #2874f0;
+    height:68px;
+    align-items: center;
+    
+
+}
+
+.logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:11px;
+    padding-bottom:11px;
+    padding-left: 222px;
+}
+
+.logo div{
+    font-size:14px;
+}
+
+
+
+.logo img{
+    width:84px;
+}
+
+.logo div img{
+    width:12px;
+}
+
+.search{
+    margin:15px;
+    border-radius: 3px;
+    height: 38px;
+    width: 555px;
+    padding:0px 22px;
+
+}
+
+
+::placeholder{
+
+    font-size: 17px;
+    
+}
+
+.search_icon{
+        height:30px;
+        margin-left: -57px;
+       
+}
+
+.searchbox{
+    display:flex;
+    align-items: center;
+
+}
+
+.login{
+    margin-left: 62px;
+    height:35px;
+    width:150px;
+    background-color: #fff;
+    color: #2874f0;
+    font-size:15px;
+    font-weight:bolder;
+
+}
+
+.text_style{
+    color:white; 
+    margin-left:45px; 
+    font-weight:bolder
+}
+
+.cart{
+    display:flex;
+    margin-left:29px;
+}
+
+.category{
+       margin:0 -96px;
+       cursor:pointer;
+
+}
+
+.category img{
+    height:70px;
+}
+
+.category p{
+    font-weight:bolder ;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    margin:16px 10px;
+}
+
+.box1{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    height:90px
+}
+
+.Heading{
+    margin: 15px 19px;
+}
+.Heading p{
+    margin:5px 0px;
+    color:#adaeb3;
+    font-weight: bold;
+}
+
+.viewall{
+    height:47px;
+    width:120px;
+    background-color: #2874f0;
+    margin: 18px 19px;
+    color:white;
+    font-weight: bold;
+}
+
+.viewall:hover{
+    background-color: #163f87;
+    cursor: pointer;
+}
+
+
+.box2{
+    display:flex;
+    background-color: white;
+    margin:1.5px 0;
+    height:350px;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+
+
+.box2_price{
+    color:green;
+    font-weight: bold;
+}
+
+.box2_details{
+    color:#8a8c94
+}
+.box2 img{
+    height:145px;
+}
+
+footer{
+    background-color:#172337;
+    height:200px;
+    color:white;
+
+}
+
+.box2 div img{
+    box-sizing: border-box;
+
+}
+
+.item{
+    width:320px;
+}
